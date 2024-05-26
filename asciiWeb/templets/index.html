@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art</title>
+</head>
+<body>
+    <form method="post">
+        <textarea name="input" placeholder="enter something"></textarea>
+        <select name="banner">
+            <option value="standard">Standerd</option>
+            <option value="shadow">Shadow</option>
+            <option value="thinkertoy">Thinkertoy</option>
+        </select>
+        <button>submit</button>
+    </form>
+    <div>
+        <pre>{{.}}</pre>
+    </div>
+</body>
+</html>
